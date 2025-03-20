@@ -91,28 +91,28 @@ typealias CGEventTapCallBack = (
 ) -> Unmanaged<CGEvent>?
 ```
 
-proxy: A proxy for the event tap. See `CGEventTapProxy`.
-type: The event type of this event. See `CGEventType`.
-event: The incoming event. This event is owned by the caller, and you do not need to release it.
-refcon: A pointer to user-defined data. You specify this pointer when you create the event tap.
+proxy: A proxy for the event tap. See `CGEventTapProxy`.  
+type: The event type of this event. See `CGEventType`.  
+event: The incoming event. This event is owned by the caller, and you do not need to release it.  
+refcon: A pointer to user-defined data. You specify this pointer when you create the event tap.  
 
-[CGEventTapLocation](https://developer.apple.com/documentation/coregraphics/cgeventtaplocation)
-[CGEventTapPlacement](https://developer.apple.com/documentation/coregraphics/cgeventtapplacement)
-[CGEventTapOptions](https://developer.apple.com/documentation/coregraphics/cgeventtapoptions)
-[CGEventMask](https://developer.apple.com/documentation/coregraphics/cgeventmask)
-[CGEventTapCallBack](https://developer.apple.com/documentation/coregraphics/cgeventtapcallback)
-[UnsafeMutableRawPointer](https://developer.apple.com/documentation/Swift/UnsafeMutableRawPointer)
-[CFMachPort](https://developer.apple.com/documentation/CoreFoundation/CFMachPort)
-[CFMachPortCreateRunLoopSource](https://developer.apple.com/documentation/corefoundation/cfmachportcreaterunloopsource(_:_:_:))
-[CFAllocator](https://developer.apple.com/documentation/corefoundation/cfallocator)
-[CFMachPort](https://developer.apple.com/documentation/corefoundation/cfmachport)
-[CFIndex](https://developer.apple.com/documentation/corefoundation/cfindex)
-[CFRunLoopSource](https://developer.apple.com/documentation/corefoundation/cfrunloopsource)
-[CGEventTapCallBack](https://developer.apple.com/documentation/coregraphics/cgeventtapcallback)
-[CGEventTapProxy](https://developer.apple.com/documentation/coregraphics/cgeventtapproxy)
-[CGEventType](https://developer.apple.com/documentation/coregraphics/cgeventtype)
-[CGEvent](https://developer.apple.com/documentation/coregraphics/cgevent)
-[UnsafeMutableRawPointer](https://developer.apple.com/documentation/Swift/UnsafeMutableRawPointer)
+[CGEventTapLocation](https://developer.apple.com/documentation/coregraphics/cgeventtaplocation)  
+[CGEventTapPlacement](https://developer.apple.com/documentation/coregraphics/cgeventtapplacement)  
+[CGEventTapOptions](https://developer.apple.com/documentation/coregraphics/cgeventtapoptions)  
+[CGEventMask](https://developer.apple.com/documentation/coregraphics/cgeventmask)  
+[CGEventTapCallBack](https://developer.apple.com/documentation/coregraphics/cgeventtapcallback)  
+[UnsafeMutableRawPointer](https://developer.apple.com/documentation/Swift/UnsafeMutableRawPointer)  
+[CFMachPort](https://developer.apple.com/documentation/CoreFoundation/CFMachPort)  
+[CFMachPortCreateRunLoopSource](https://developer.apple.com/documentation/corefoundation/cfmachportcreaterunloopsource(_:_:_:))  
+[CFAllocator](https://developer.apple.com/documentation/corefoundation/cfallocator)  
+[CFMachPort](https://developer.apple.com/documentation/corefoundation/cfmachport)  
+[CFIndex](https://developer.apple.com/documentation/corefoundation/cfindex)  
+[CFRunLoopSource](https://developer.apple.com/documentation/corefoundation/cfrunloopsource)  
+[CGEventTapCallBack](https://developer.apple.com/documentation/coregraphics/cgeventtapcallback)  
+[CGEventTapProxy](https://developer.apple.com/documentation/coregraphics/cgeventtapproxy)  
+[CGEventType](https://developer.apple.com/documentation/coregraphics/cgeventtype)  
+[CGEvent](https://developer.apple.com/documentation/coregraphics/cgevent)  
+[UnsafeMutableRawPointer](https://developer.apple.com/documentation/Swift/UnsafeMutableRawPointer)  
 
 Apple deprecated and removed some classes and objects from their [Documentation](https://developer.apple.com/documentation). `¯\_(ツ)_/¯`
 
